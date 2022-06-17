@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:fillViewport="true"
-    xmlns:android="http://schemas.android.com/apk/res/android" >
+    android:layout_height="match_parent"
+    android:fillViewport="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -45,9 +45,9 @@
             android:id="@+id/linearLayout2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
             android:layout_marginTop="54dp"
             android:orientation="vertical"
-            android:layout_marginLeft="5dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.517"
             app:layout_constraintStart_toStartOf="parent"
@@ -62,11 +62,11 @@
 
                 <LinearLayout
                     android:id="@+id/btnLista"
-                    android:background="@drawable/opcoesmenu"
                     android:layout_width="200dp"
-                    android:layout_weight="0.2"
-                    android:layout_marginLeft="20dp"
                     android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/opcoesmenu"
                     android:orientation="vertical">
 
                     <LinearLayout
@@ -78,7 +78,7 @@
                             android:layout_width="110dp"
                             android:layout_height="100dp"
                             android:layout_marginLeft="180dp"
-                            app:srcCompat="@drawable/ic_login"/>
+                            app:srcCompat="@drawable/ic_login" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -105,9 +105,9 @@
                     android:id="@+id/btnAgendar"
                     android:layout_width="200dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.2"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
+                    android:layout_weight="0.2"
                     android:background="@drawable/opcoesmenu"
                     android:orientation="vertical">
 
@@ -120,7 +120,7 @@
                             android:layout_width="110dp"
                             android:layout_height="100dp"
                             android:layout_marginLeft="180dp"
-                            app:srcCompat="@drawable/ic_agendar"/>
+                            app:srcCompat="@drawable/ic_agendar" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -143,9 +143,6 @@
             </LinearLayout>
 
 
-
-
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="255dp"
@@ -154,13 +151,14 @@
 
                 <LinearLayout
                     android:id="@+id/btnInfo"
-                    android:background="@drawable/opcoesmenu"
                     android:layout_width="340dp"
-                    android:layout_weight="0.2"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginLeft="20dp"
                     android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/opcoesmenu"
                     android:orientation="vertical">
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
@@ -170,8 +168,9 @@
                             android:layout_width="110dp"
                             android:layout_height="100dp"
                             android:layout_marginLeft="210dp"
-                            app:srcCompat="@drawable/ic_info"/>
+                            app:srcCompat="@drawable/ic_info" />
                     </LinearLayout>
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -195,13 +194,13 @@
 
                 <LinearLayout
                     android:id="@+id/btnTelaInicial"
-                    android:background="@drawable/opcoesmenu"
                     android:layout_width="340dp"
-                    android:layout_weight="0.2"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="20dp"
                     android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginRight="20dp"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/opcoesmenu"
                     android:orientation="vertical">
 
                     <LinearLayout
@@ -213,8 +212,9 @@
                             android:layout_width="110dp"
                             android:layout_height="100dp"
                             android:layout_marginLeft="180dp"
-                            app:srcCompat="@drawable/ic_voltar"/>
+                            app:srcCompat="@drawable/ic_voltar" />
                     </LinearLayout>
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
