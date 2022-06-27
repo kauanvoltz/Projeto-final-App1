@@ -80,7 +80,7 @@ public class Paciente implements Serializable {
     // Esse metodo abaixo eu poderia ter economizado memoria e ter feito usando apenas um if  porem
     // eu usei um else if para ficar melhor de ler e entender o codigo, caso outra pessoa olhe o codigo
     public boolean validarData(){
-        if((dia >= 1 && dia <=31) && (mes >=1 && mes <=12) && (ano >=2022)){
+        if((dia >= 1 && dia <=31) && (mes >=1 && mes <=12) && (ano >=2022 && ano <=2032)){
              if((mes == 2 && dia == 29) && ((ano % 4 == 0) && (ano % 100 != 0)) || (ano % 400 == 0) || (dia <=28)){
                 return true;
             }

@@ -8,10 +8,13 @@
         <entry key="..\:/Users/kauan/AndroidStudioProjects/AppDentista/AppDentista/app/src/main/res/layout/activity_login.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/kauan/AndroidStudioProjects/AppDentista/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1125" />
         <entry key="..\:/Users/kauan/AndroidStudioProjects/AppDentista/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1125" />
+        <entry key="..\:/Users/kauan/AndroidStudioProjects/AppDentista/app/src/main/res/layout/activity_cadastrar.xml" value="0.22" />
         <entry key="..\:/Users/kauan/AndroidStudioProjects/AppDentista/app/src/main/res/layout/activity_informacoes.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/kauan/AndroidStudioProjects/AppDentista/app/src/main/res/layout/activity_inicial.xml" value="0.22" />
-        <entry key="..\:/Users/kauan/AndroidStudioProjects/AppDentista/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
-        <entry key="..\:/Users/kauan/AndroidStudioProjects/AppDentista/app/src/main/res/layout/activity_principal.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/kauan/AndroidStudioProjects/AppDentista/app/src/main/res/layout/activity_lista.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/kauan/AndroidStudioProjects/AppDentista/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/kauan/AndroidStudioProjects/AppDentista/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/kauan/AndroidStudioProjects/AppDentista/app/src/main/res/layout/activity_principal.xml" value="0.22" />
         <entry key="..\:/Users/kauan/AndroidStudioProjects/AppDentista/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1125" />
       </map>
     </option>

@@ -21,7 +21,7 @@
             android:fontFamily="@font/adamina"
             android:text="Selecione a opção desejada"
             android:textColor="@color/white"
-            android:textSize="30dp"
+            android:textSize="25dp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.529"
@@ -30,12 +30,12 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="291dp"
-            android:layout_height="221dp"
+            android:layout_width="240dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="25dp"
             android:layout_marginBottom="16dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
             app:layout_constraintVertical_bias="1.0"
@@ -56,7 +56,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="255dp"
+                android:layout_height="match_parent"
                 android:orientation="horizontal">
 
 
@@ -65,7 +65,7 @@
                     android:layout_width="200dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="20dp"
-                    android:layout_weight="0.2"
+                    android:layout_weight="0.1"
                     android:background="@drawable/opcoesmenu"
                     android:orientation="vertical">
 
@@ -77,7 +77,7 @@
                         <ImageView
                             android:layout_width="110dp"
                             android:layout_height="100dp"
-                            android:layout_marginLeft="180dp"
+                            android:layout_gravity="end"
                             app:srcCompat="@drawable/ic_login" />
                     </LinearLayout>
 
@@ -89,12 +89,13 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:layout_marginLeft="10dp"
+                            android:layout_marginLeft="4dp"
                             android:layout_marginTop="50dp"
+                            android:layout_gravity="center"
                             android:fontFamily="@font/adamina"
                             android:text="Acesse a lista de pacientes "
                             android:textColor="@color/black"
-                            android:textSize="25dp"
+                            android:textSize="22dp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -107,7 +108,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
-                    android:layout_weight="0.2"
+                    android:layout_weight="0.1"
                     android:background="@drawable/opcoesmenu"
                     android:orientation="vertical">
 
@@ -119,6 +120,7 @@
                         <ImageView
                             android:layout_width="110dp"
                             android:layout_height="100dp"
+                            android:layout_gravity="end"
                             android:layout_marginLeft="180dp"
                             app:srcCompat="@drawable/ic_agendar" />
                     </LinearLayout>
@@ -131,12 +133,13 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:layout_marginLeft="30dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_gravity="center"
                             android:layout_marginTop="50dp"
                             android:fontFamily="@font/adamina"
                             android:text="Agendar consulta de pacientes"
                             android:textColor="@color/black"
-                            android:textSize="25dp"
+                            android:textSize="22dp"
                             android:textStyle="bold" />
                     </LinearLayout>
                 </LinearLayout>
@@ -145,7 +148,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="255dp"
+                android:layout_height="match_parent"
                 android:orientation="horizontal">
 
 
@@ -154,7 +157,7 @@
                     android:layout_width="340dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="18dp"
                     android:layout_weight="0.2"
                     android:background="@drawable/opcoesmenu"
                     android:orientation="vertical">
@@ -167,6 +170,7 @@
                         <ImageView
                             android:layout_width="110dp"
                             android:layout_height="100dp"
+                            android:layout_gravity="end"
                             android:layout_marginLeft="210dp"
                             app:srcCompat="@drawable/ic_info" />
                     </LinearLayout>
@@ -179,12 +183,13 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:layout_marginLeft="15dp"
-                            android:layout_marginTop="50dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="45dp"
+                            android:layout_gravity="center"
                             android:fontFamily="@font/adamina"
                             android:text="Informações sobre a clinica"
                             android:textColor="@color/black"
-                            android:textSize="25dp"
+                            android:textSize="22dp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -197,7 +202,7 @@
                     android:layout_width="340dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="18dp"
                     android:layout_marginRight="20dp"
                     android:layout_weight="0.2"
                     android:background="@drawable/opcoesmenu"
@@ -211,6 +216,7 @@
                         <ImageView
                             android:layout_width="110dp"
                             android:layout_height="100dp"
+                            android:layout_gravity="end"
                             android:layout_marginLeft="180dp"
                             app:srcCompat="@drawable/ic_voltar" />
                     </LinearLayout>
@@ -223,12 +229,13 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:layout_marginLeft="20dp"
-                            android:layout_marginTop="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="55dp"
+                            android:layout_gravity="center"
                             android:fontFamily="@font/adamina"
                             android:text="Voltar a tela inicial"
                             android:textColor="@color/black"
-                            android:textSize="25dp"
+                            android:textSize="22dp"
                             android:textStyle="bold" />
                     </LinearLayout>
                 </LinearLayout>
